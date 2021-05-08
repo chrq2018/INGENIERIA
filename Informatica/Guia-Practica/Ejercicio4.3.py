@@ -2,11 +2,14 @@
 #el mayor de tres números dados por parámetro. Pruebe la función con 6 ternas de valores.
 
 def may_de_3(a,b,c):
-    if a > b and a > c:
+    """ Recibe por parametro 3 numeros y devuelve como resultado
+        el mayor de tres números dados por parámetro. Pruebe la
+        función con 6 ternas de valores. """
+    if a >= b and a >= c:
         return a
-    elif b > a and b > c:
+    elif  b >= c:
         return b
-    else:
+    else: 
         return c
 
 def main():
