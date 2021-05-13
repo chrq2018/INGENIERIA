@@ -11,7 +11,6 @@ def tabla_n(num):
     """ recibe por parámetro un número natural num,
         y muestre en pantalla, con descripciones expresivas,
         su tabla de multiplicar desde 0 hasta num (incluido). """
-    
     print("tabla de multiplicar desde 0 hasta ",num,":")
     for i in range(num + 1):
         t = num * i

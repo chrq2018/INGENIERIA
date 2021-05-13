@@ -7,13 +7,11 @@ def es_primo(n):
         un resultado booleano que indique si es primo, o no.
         [Un número natural es primo, si solamente es divisible
         por sí mismo y por 1]. """
-    if n == 2 or n == 3 or n == 5:
-        return True
+   
     for i in range (2, n):
-        if n % 2 != 0 and n % 3 != 0 and n % 5 != 0 :
-            return True
-        else:
+        if n % i == 0 :
             return False
+    return True
 
 def main():
     num = int(input("Ingrese un numero entero: "))

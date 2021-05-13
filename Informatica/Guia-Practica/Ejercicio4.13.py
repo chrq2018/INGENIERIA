@@ -31,41 +31,40 @@ def signo_zodiaco(d, m):
         Capricornio: 22 de diciembre al 20 de enero.
         Acuario: 21 de enero al 19 de febrero.
         Piscis: 20 de febrero al 20 de marzo. """
-    
     if (21 <= d <= 31 and m == 3) or (1 <= d <= 20 and m == 4):
         print ("Su signo es Aries")
         
-    if (21 <= d <= 30 and m == 4) or (1 <= d <= 20 and m == 5):
+    elif (21 <= d <= 30 and m == 4) or (1 <= d <= 20 and m == 5):
         print ("Su signo es Tauro")
         
-    if (21 <= d <= 31 and m == 5) or (1 <= d <= 20 and m == 6):
+    elif (21 <= d <= 31 and m == 5) or (1 <= d <= 20 and m == 6):
         print ("Su signo es Geminis")
         
-    if (21 <= d <= 30 and m == 6) or (1 <= d <= 21 and m == 7):
+    elif (21 <= d <= 30 and m == 6) or (1 <= d <= 21 and m == 7):
         print ("Su signo es Cáncer")
         
-    if (22 <= d <= 31 and m == 7) or (1 <= d <= 22 and m == 8):
+    elif (22 <= d <= 31 and m == 7) or (1 <= d <= 22 and m == 8):
         print ("Su signo es Leo")
         
-    if (23 <= d <= 31 and m == 8) or (1 <= d <= 22 and m == 9):
+    elif (23 <= d <= 31 and m == 8) or (1 <= d <= 22 and m == 9):
         print ("Su signo es Virgo")
         
-    if (23 <= d <= 30 and m == 9) or (1 <= d <= 22 and m == 10):
+    elif (23 <= d <= 30 and m == 9) or (1 <= d <= 22 and m == 10):
         print ("Su signo es Libra")
         
-    if (23 <= d <= 31 and m == 10) or (1 <= d <= 22 and m == 11):
+    elif (23 <= d <= 31 and m == 10) or (1 <= d <= 22 and m == 11):
         print ("Su signo es Escorpio")
         
-    if (23 <= d <= 30 and m == 11) or (1 <= d <= 21 and m == 12):
+    elif (23 <= d <= 30 and m == 11) or (1 <= d <= 21 and m == 12):
         print ("Su signo es Sagitario")
         
-    if (22 <= d <= 31 and m == 12) or (1 <= d <= 20 and m == 1):
+    elif (22 <= d <= 31 and m == 12) or (1 <= d <= 20 and m == 1):
         print ("Su signo es Capricornio")
         
-    if (21 <= d <= 31 and m == 1) or (1 <= d <= 19 and m == 2):
+    elif (21 <= d <= 31 and m == 1) or (1 <= d <= 19 and m == 2):
         print ("Su signo es Acuario")
         
-    if (20 <= d <= 29 and m == 2) or (1 <= d <= 20 and m == 3):
+    elif (20 <= d <= 29 and m == 2) or (1 <= d <= 20 and m == 3):
         print ("Su signo es Piscis")
 
 def main():
